@@ -113,8 +113,3 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-// dotnet ef migrations add init
-// dotnet ef database update
-
-// After Adding Identity with authentication and authorization
-// dotnet ef migrations add Identity
